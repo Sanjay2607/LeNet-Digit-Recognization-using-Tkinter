@@ -1,0 +1,6 @@
+cv2 => 3.4.2
+numpy => 1.18.4
+PIL => 6.2.1
+tensorflow => 1.15.0
+TKinter => 8.6
+keras_tensorflow => 2.2.4_tf
