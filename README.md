@@ -5,7 +5,7 @@ LeNet is a convolutional neural network structure proposed by Yann LeCun et al. 
 LeNet possesses the basic units of the convolutional neural network such as convolution layer, pooling layer and full layer (F.C.). In LeNet, tanh is used as activation function and average pooling was used. But for better result, we are using Max Pooling Layer and Relu.
 
 
-![Image description](LeNet.PNG)
+![LeNet Architecture](LeNet.PNG)
 
 
 Layer1(Convolution Layer) : 6 kernels of 5x5, input image with shape=(28,28,1), stride = (1,1), padding = "same", activation = "relu".
