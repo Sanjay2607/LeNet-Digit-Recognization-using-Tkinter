@@ -8,21 +8,21 @@ LeNet possesses the basic units of the convolutional neural network such as conv
 ![LeNet Architecture](LeNet.PNG)
 
 
-Layer1(Convolution Layer) : 6 kernels of 5x5, input image with shape=(28,28,1), stride = (1,1), padding = "same", activation = "relu".
+Layer1 (Convolution Layer) : 6 kernels of 5x5, input image with shape=(28,28,1), stride = (1,1), padding = "same", activation = "relu".
 
-Layer2(Max Pooling Layer) : pool_size = (2,2), strides = (2,2), padding = "valid".
+Layer2 (Max Pooling Layer) : pool_size = (2,2), strides = (2,2), padding = "valid".
 
-Layer3(Convolution Layer) : 16 kernels of 5x5, stride = (1,1), padding = "valid", activation = "relu".
+Layer3 (Convolution Layer) : 16 kernels of 5x5, stride = (1,1), padding = "valid", activation = "relu".
 
-Layer4(Max Pooling Layer) : pool_size = (2,2), strides = (2,2), padding = "valid".
+Layer4 (Max Pooling Layer) : pool_size = (2,2), strides = (2,2), padding = "valid".
 
 Flatten the layer
 
-Layer5(Fully Connected Layer) : 120 Neurons, actiavtion = "relu"
+Layer5 (Fully Connected Layer) : 120 Neurons, actiavtion = "relu"
 
-Layer6(Fully Connected Layer) : 84 Neurons, activation = "relu"
+Layer6 (Fully Connected Layer) : 84 Neurons, activation = "relu"
 
-Layer7(Output Layer) : 10 Neuron, Softmax each neuron representing output class.
+Layer7 (Output Layer) : 10 Neuron, Softmax each neuron representing output class.
 
 optimizer = "adam"
 
